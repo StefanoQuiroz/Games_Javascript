@@ -1,15 +1,16 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-
-body{
-    background-color: gray;
+#container{
+    width: 970px;
+    height: 850px;
+    margin: 0 auto;
+    background-color: rgb(230, 230, 230);
+    position: relative;
 }
 
 #ninja{
-    height: 100px;
+    background-image: url(./image/down1.png);
+    height: 86px;
+    width: 59px;
     position: absolute;
     top: 150px;
-    left: 750px;
+    left: 150px;
 }
